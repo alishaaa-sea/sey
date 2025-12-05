@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>MESSAGE FOR P2 TEAM!</title>
+<style>
+    body {
+        background: #ffe6fa;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        padding: 50px;
+    }
+    h1 {
+        color: hsl(0, 100%, 50%);
+        font-size: 50px;
+    }
+    .card {
+        background: white;
+        padding: 30px;
+        margin: auto;
+        width: 300px;
+        border-radius: 25px;
+        box-shadow: 0 5px 14px rgba(0,0,0,0.1);
+    }
+    button, a.button {
+        background: #ff82d1;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 15px;
+        display: block;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: none;
+    }
+    button:hover, a.button:hover {
+        background: #ff5db0;
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+        .section {
+        display: none;
+        background: white;
+        padding: 30px;
+        margin-top: 30px;
+        border-radius: 25px;
+        width: 80%;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 5px 14px rgba(0,0,0,0.1);
+    }
+</style>
+
+<script>
+    function showSection(id) {
+        // sembunyikan semua section
+        document.querySelectorAll('.section').forEach(sec => {
+            sec.style.display = 'none';
+        });
+
+        // tampilkan hanya section yang dipilih
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
+
+</head>
+<body>
+
+<h1>Halo P2 Member! </h1>
+<img src="jay.jpg" width="300" style="border-radius:20px; margin-bottom:20px;">
+
+<div class="card">
+    <p>tolong pencet sesuai nama yaa! 💖</p>
+    <button onclick="alert('Hehe, makasih ya! 💕')">for all P2 Member!!</button>
+    <hr style="margin:25px 0; opacity:0.3;">
+
+    <!-- BUTTON PINDAH HALAMAN -->
+    <a href="mbacindy.html" class="button">⭐ Mba Cindy</a>
+    <a href="mbatary.html" class="button">🎀 Mba Tary</a>
+    <a href="mbaela.html" class="button">🍬 Mba Ela</a>
+    <a href="masgabryel.html" class="button">⭐ Mas Gabryel</a>
+    <a href="gallery.html" class="button">🎀 Mas Desca</a>
+    <a href="contact.html" class="button">🍬 Mas alif</a>
+        <a href="mbatary.html" class="button">🎀 Atul</a>
+    <a href="mbaela.html" class="button">🍬 Adifa</a>
+    <a href="masgabryel.html" class="button">⭐ Ishma</a>
+    <a href="gallery.html" class="button">🎀 Pipin</a>
+    <a href="contact.html" class="button">🍬 Yeremia</a>
+    <hr style="margin:25px 0; opacity:0.3;">
+</div>
+
+</body>
+</html>
